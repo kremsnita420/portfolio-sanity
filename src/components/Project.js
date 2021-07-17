@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import aboutImage from "../about-image.jpg";
 
 
 export default function Project() {
@@ -25,11 +24,6 @@ export default function Project() {
 
   return (
     <main className="bg-green-100 min-h-screen">
-      <img
-        src={aboutImage}
-        alt="man facing three monitors"
-        className="absolute w-screen h-screen"
-      />
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center sans-serif">My Projects</h1>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">

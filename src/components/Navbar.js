@@ -40,19 +40,19 @@ function Navbar() {
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
             url="https://twitter.com/DuranovicSafet"
-            className="mr-4 hover:text-green-600 font-bold tracking-widest"
+            className="mr-4 hover:bg-green-600 font-bold tracking-widest"
             target="_blank"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://www.linkedin.com/in/safet-duranovic/"
-            className="mr-4 hover:text-green-800"
+            className="mr-4 hover:bg-green-800"
             target="_blank"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://github.com/kremsnita420"
-            className="mr-4"
+            className="mr-4 hover:bg-green-800"
             target="_blank"
             style={{ height: 35, width: 35 }}
           />

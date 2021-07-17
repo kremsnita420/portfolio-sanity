@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import aboutImage from "../about-image.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react"
 
@@ -27,12 +26,7 @@ export default function About() {
 
   if (!author) return <div>Loading...</div>;
   return (
-    <main className="relative">
-      <img
-        src={aboutImage}
-        alt="man facing three monitors"
-        className="absolute w-screen h-screen"
-      />
+    <main className="relative bg-green-200">
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
